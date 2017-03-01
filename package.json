@@ -9,7 +9,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node test.js && zuul --ui tape --local 9966 -- test.js"
+    "test": "node test.js && zuul --ui tape --local 9966 -- test.js",
+    "ci": "node test.js"
   },
   "author": "",
   "license": "ISC"
